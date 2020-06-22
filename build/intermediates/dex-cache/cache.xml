@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\GameBuild\ToDay_0.1.1v\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="db3a1e2b22b9426677d26f7f3eaaf03f877d0a94">
+        <dex dex="D:\GameBuild\ToDay_0.1.1v\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7954355103fcc2fe805914ad110aaa7774e02ccb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\GameBuild\ToDay_0.1.1v\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.3"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="D:\GameBuild\ToDay_0.1.1v\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_c620c44def0863008b5850994465e09bac56eb82\classes.dex" />
+    </item>
+
+</items>

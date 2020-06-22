@@ -1,0 +1,19 @@
+# Project exclude paths
+/.gradle/
+/app/build/intermediates/blame/
+/app/build/intermediates/classes/
+/app/build/intermediates/classes/debug/
+/app/build/intermediates/incremental/
+/app/build/intermediates/incremental-classes/
+/app/build/intermediates/incremental-runtime-classes/
+/app/build/intermediates/incremental-safeguard/
+/app/build/intermediates/incremental-verifier/
+/app/build/intermediates/instant-run-resources/
+/app/build/intermediates/instant-run-support/
+/app/build/intermediates/manifests/
+/app/build/intermediates/res/
+/app/build/intermediates/restart-dex/
+/app/build/intermediates/split-apk/
+/app/build/intermediates/symbols/
+/app/build/intermediates/transforms/
+/app/build/outputs/

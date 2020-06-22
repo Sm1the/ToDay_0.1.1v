@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ru.anypixelstudio.com.today.MenuActivity">
+
+    <ImageView
+        android:id="@+id/BackGroundColor"
+        android:layout_width="500dp"
+        android:layout_height="650dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@android:color/holo_blue_dark" />
+
+    <ImageView
+        android:id="@+id/Add_wc"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BackGroundColor"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.082"
+        app:srcCompat="@drawable/whilecircle" />
+
+    <ImageView
+        android:id="@+id/Add_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        android:onClick="addButton"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/Add_wc"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/Add_wc"
+        app:layout_constraintTop_toTopOf="@+id/Add_wc"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Add_wc"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:id="@+id/View_wc"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BackGroundColor"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08"
+        app:srcCompat="@drawable/whilecircle" />
+
+    <ImageView
+        android:id="@+id/View_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@android:drawable/ic_menu_view"
+        android:onClick="viewButton"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/View_wc"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/View_wc"
+        app:layout_constraintTop_toTopOf="@+id/View_wc"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/View_wc"
+        android:layout_marginBottom="8dp" />
+
+    <ImageView
+        android:id="@+id/Calendar_wc"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/whilecircle" />
+
+    <ImageView
+        android:id="@+id/Calendar_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Calendar_wc"
+        app:layout_constraintLeft_toLeftOf="@+id/Calendar_wc"
+        app:layout_constraintRight_toRightOf="@+id/Calendar_wc"
+        app:layout_constraintTop_toTopOf="@+id/Calendar_wc"
+        app:srcCompat="@android:drawable/ic_menu_today"
+        android:onClick="openCalendar"/>
+
+    <ImageView
+        android:id="@+id/Alarm_wc"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.498"
+        app:srcCompat="@drawable/whilecircle" />
+
+    <ImageView
+        android:id="@+id/Alarm_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="openAlarm"
+        app:layout_constraintBottom_toBottomOf="@+id/Alarm_wc"
+        app:layout_constraintLeft_toLeftOf="@+id/Alarm_wc"
+        app:layout_constraintRight_toRightOf="@+id/Alarm_wc"
+        app:layout_constraintTop_toTopOf="@+id/Alarm_wc"
+        app:srcCompat="@android:drawable/ic_menu_recent_history" />
+
+    <ImageView
+        android:id="@+id/Setting_wc"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BackGroundColor"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.768"
+        app:srcCompat="@drawable/whilecircle" />
+
+    <ImageView
+        android:id="@+id/Setting_button"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:onClick="settingButton"
+        app:srcCompat="@android:drawable/ic_menu_manage"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/Setting_wc"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/Setting_wc"
+        app:layout_constraintBottom_toBottomOf="@+id/Setting_wc"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintTop_toTopOf="@+id/Setting_wc"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/About_wc"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/BackGroundColor"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/whilecircle"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.769"
+        app:layout_constraintHorizontal_bias="0.848" />
+
+    <ImageView
+        android:id="@+id/About_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:srcCompat="@android:drawable/ic_menu_info_details"
+        android:onClick="aboutButton"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="@+id/About_wc"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/About_wc"
+        app:layout_constraintTop_toTopOf="@+id/About_wc"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/About_wc"
+        android:layout_marginBottom="8dp" />
+
+</android.support.constraint.ConstraintLayout>
